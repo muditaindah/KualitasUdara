@@ -3,8 +3,8 @@ This project made for analyzing the air quality datasets for several urban and s
 
 #  Environment
 ```bash
-Installing 
-pip install streamlit pandas numpy matplotlib seaborn geopandas
+For installing :
+      pip install streamlit pandas numpy matplotlib seaborn geopandas
 
-Run Streamlit
-streamlit run dashboard.py
+For run Streamlit:
+      streamlit run dashboard.py
