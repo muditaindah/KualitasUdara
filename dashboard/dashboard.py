@@ -168,7 +168,6 @@ coordinates = {
     'Wanshouxigong': (39.867, 116.366)
 }
 
-os.chdir(./dashboard)
 china_data = gpd.read_file(r'https://raw.githubusercontent.com/muditaindah/KualitasUdara/main/dashboard/peta/chn_admbnda_adm1_ocha_2020.shp')
 beijing_data = china_data[china_data['ADM1_EN'] == 'Beijing Municipality']
 from shapely.geometry import Point
