@@ -168,7 +168,7 @@ coordinates = {
     'Wanshouxigong': (39.867, 116.366)
 }
 
-china_data = gpd.read_file(r'C:\Users\Mudita Indah\Downloads\dashboard\peta\chn_admbnda_adm1_ocha_2020.shp')
+china_data = gpd.read_file(r'.\peta\chn_admbnda_adm1_ocha_2020.shp')
 beijing_data = china_data[china_data['ADM1_EN'] == 'Beijing Municipality']
 from shapely.geometry import Point
 pollutants = ['PM2.5', 'PM10', 'CO', 'O3', 'NO2', 'SO2']
