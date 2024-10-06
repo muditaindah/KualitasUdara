@@ -6,7 +6,7 @@ import seaborn as sns
 import os
 import geopandas as gpd
 
-os.chdir('./KualitasUdara'
+os.chdir('./KualitasUdara')
 
 image_url = "https://github.com/muditaindah/KualitasUdara/blob/main/dashboard/beijing.jpg"
 st.write("<h1 style='text-align: center; color: #3498db'>Air Quality Analysis of Beijing</h1>", unsafe_allow_html=True)
