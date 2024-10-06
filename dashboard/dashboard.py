@@ -6,7 +6,7 @@ import seaborn as sns
 import os
 import geopandas as gpd
 
-os.chdir(./dashboard)
+os.chdir('./dashboard')
 st.write("<h1 style='text-align: center; color: #3498db'>Air Quality Analysis of Beijing</h1>", unsafe_allow_html=True)
 st.image("beijing.jpg", use_column_width=True)
 
